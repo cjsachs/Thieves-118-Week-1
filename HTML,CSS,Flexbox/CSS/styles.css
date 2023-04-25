@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Selectors */
+p {
+    color: blue !important;
+}
+
+p {
+    color: aqua;
+}
+
+#id-selector {
+    color: crimson;
+}
+
+.class-selector {
+    color: lime;
+}
+
+a[target="_blank"]{
+    color: violet;
+}
+
+/* Relational Selectors */
+
+.thieves p {
+    color: coral;
+}
+
+.thieves > p {
+    color: royalblue;
+}
+
+/* Pseudo-class Selectors */
+li {
+    color: purple;
+}
+
+li:hover {
+    color: black;
+}
+
+li:first-child{
+    color: olive;
+}
+
+li:last-child{
+    color: brown;
+}
