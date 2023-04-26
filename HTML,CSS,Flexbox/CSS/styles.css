@@ -1,16 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Basic Selectors */
-p {
-    color: blue !important;
-}
-
-p {
-    color: aqua;
+h1 {
+    color: green;
 }
 
 #id-selector {
@@ -18,36 +13,29 @@ p {
 }
 
 .class-selector {
-    color: lime;
+    color: royalblue;
 }
 
-a[target="_blank"]{
-    color: violet;
-}
-
-/* Relational Selectors */
-
-.thieves p {
+a[href="http://www.google.com"]{
     color: coral;
 }
 
 .thieves > p {
-    color: royalblue;
+    color: darkblue;
 }
 
-/* Pseudo-class Selectors */
-li {
+a:hover {
+    color: lime;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: pink;
+}
+
+h1 {
     color: purple;
-}
-
-li:hover {
-    color: black;
-}
-
-li:first-child{
-    color: olive;
-}
-
-li:last-child{
-    color: brown;
 }
